@@ -1,0 +1,87 @@
+.img-perfil{
+    /*border: 1px solid white;*/
+    height: 150px;
+}
+
+.cabecalho, .rodape{
+    color: white;
+}
+
+.cabecalho{
+    padding: 50px;
+    text-align: center;
+    display: table;
+    height: 50%;
+    width: 100%;
+}
+
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: #2152a0;
+}
+.navbar-nav a.active{
+    color: #153b77;
+    font-weight: bold;
+}
+
+.btn-primary{
+    background-color: #2152a0;
+    border: 1px solid #2152a0;
+}
+.btn-primary:hover{
+    background-color: #153b77;
+    border: 1px solid #153b77;
+}
+
+.conteudo{
+    background-color: white;
+}
+
+footer a, footer a:hover, footer a:visited{
+    color: lightsteelblue;
+}
+
+footer > p > span{
+    float: right;
+}
+
+.fab, .fas{
+    color: white;
+}
+.fa-facebook:hover{
+    color: #3b5998;
+}
+.fa-linkedin:hover{
+    color: #0077b5;
+}
+.fa-github-square:hover{
+    color: #333;
+}
+.fa-envelope-square:hover{
+    color: #ea4335;
+}
+.fa-whatsapp-square:hover{
+    color: #25d366;
+}
+
+.row{
+    padding: 15px;
+}
+
+html, body{
+    background: url("img/bg.jpg");
+    background-attachment: fixed;
+    background-size: 1920px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+    font-size: 10px;
+    text-align: right;
+}
+
+h3{
+    color: #2152a0;
+}
